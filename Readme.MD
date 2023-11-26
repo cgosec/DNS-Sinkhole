@@ -107,12 +107,12 @@ edit the AdGuardHome.yaml
 add you whitelisted urls over the implicid block **'/.*/** regex
 for a sub domain whitelist wildcard use '@@||YOUR_DOMAIN.com'
 
-  ...
-  user_rules: 
-    - '@@||digicert.com'
-    - '@@||lanner-lion.cloudsink.net'
-    - '/.*/'
-  ...
+      ...
+      user_rules: 
+        - '@@||digicert.com'
+        - '@@||lanner-lion.cloudsink.net'
+        - '/.*/'
+      ...
 
 ** This is preconfigured to allow communication to CrowdStrike Falcon EDR - change as you need**
 
