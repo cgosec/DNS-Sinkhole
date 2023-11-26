@@ -58,7 +58,7 @@ get it running:
       docker-compose stop
 
 
-**if you don't want to use the prepared config you can leave the container running and just configure the AdGuard as needed**
+*if you don't want to use the prepared config you can leave the container running and just configure the AdGuard as needed*
 
 now copy the prepared config file 
 
