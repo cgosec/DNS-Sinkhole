@@ -58,6 +58,10 @@ the predefined credentials in the config are:
   admin  
   This$$is"aN1cePw00rNuut?
 
+access the dashboard at **http://your_ip:8083**
+if you activate the wieguard vpn in the docker-compose file, I sugges you out comment the port mapping to 8083 and 4443 and access the dashboard only from the vpn. 
+
+
 ## Change DNS Upstream Server:
 
 edit the AdGuardHome.yaml
