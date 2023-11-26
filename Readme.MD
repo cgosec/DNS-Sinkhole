@@ -104,7 +104,7 @@ edit the AdGuardHome.yaml
       nano data/confdir/AdGuardHome.yaml
 
 
-add you whitelisted urls over the implicid block **'/.*/** regex
+add you whitelisted urls over the implicid block **'/.*/'** regex
 for a sub domain whitelist wildcard use '@@||YOUR_DOMAIN.com'
 
       ...
