@@ -114,7 +114,7 @@ for a sub domain whitelist wildcard use '@@||YOUR_DOMAIN.com'
         - '/.*/'
       ...
 
-**This is preconfigured to allow communication to CrowdStrike Falcon EDR - change as you need**
+*This is preconfigured to allow communication to CrowdStrike Falcon EDR - change as you need*
 
 **you can check in the logs and dashboard for blocked DNS request to identify malicious traffic or troubleshooting for services you want to check**
   
