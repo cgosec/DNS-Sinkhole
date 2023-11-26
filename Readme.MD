@@ -17,25 +17,35 @@ I suggest taking a Ubuntu. Install Docker and Docker Compose on it.
 
 create adguardhome.conf here:
 
+
     /etc/systemd/resolved.conf.d/adguardhome.conf
 
+
 with this content:
+
 
     [Resolve]
     DNS=127.0.0.1
     DNSStubListener=no
 
+
 save the corrent resolv.conf
+
 
     mv /etc/resolv.conf /etc/resolv.conf.backup
 
+
 activate the new one
+
 
     ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 
+
 restart resolved service
 
+
     systemctl reload-or-restart systemd-resolved
+
 
 ## set up AdGuard
 
