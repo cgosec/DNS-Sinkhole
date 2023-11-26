@@ -51,22 +51,28 @@ restart resolved service
 
 get it running:
 
+
   git clone https://github.com/cgosec/DNS-Sinkhole
   cd DNS-Sinkhole
   docker-compose up -d
   docker-compose stop
 
+
 **if you don't want to use the prepared config you can leave the container running and just configure the AdGuard as needed**
 
 now copy the prepared config file 
 
+
   cp AdGuardHome.yaml data/confdir/
   docker-compose start
 
+
 the predefined credentials in the config are:
+
 
   admin  
   This$$is"aN1cePw00rNuut?
+
 
 access the dashboard at **http://your_ip:8083**
 if you activate the wieguard vpn in the docker-compose file, I sugges you out comment the port mapping to 8083 and 4443 and access the dashboard only from the vpn. 
@@ -76,7 +82,9 @@ if you activate the wieguard vpn in the docker-compose file, I sugges you out co
 
 edit the AdGuardHome.yaml
 
+
   nano data/confdir/AdGuardHome.yaml
+
 
 add your DNS upstream server here (you can remove the others):
 
@@ -92,7 +100,9 @@ add your DNS upstream server here (you can remove the others):
 
 edit the AdGuardHome.yaml
 
+
   nano data/confdir/AdGuardHome.yaml
+
 
 add you whitelisted urls over the implicid block **'/.*/** regex
 for a sub domain whitelist wildcard use '@@||YOUR_DOMAIN.com'
