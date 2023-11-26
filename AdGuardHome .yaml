@@ -128,8 +128,6 @@ whitelist_filters: []
 user_rules: 
   - '@@||digicert.com'
   - '@@||lanner-lion.cloudsink.net'
-  - '@@||sec-defence.com'
-  - '@@||sec-consult.com'
   - '/.*/'
 dhcp:
   enabled: false
