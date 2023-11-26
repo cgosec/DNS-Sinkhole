@@ -11,7 +11,7 @@ a) Whitelist traffic to prevent DNS Tunneling
 
 b) Monitor the DNS traffic
 
-**This is intended for quick deployment in Incidents and not a recommendation for general integration in your production network!**
+**This is intended for quick deployment in incidents and not a recommendation for general integration in your production network!**
 
 # Quick Setup
 I suggest taking a Ubuntu. Install Docker and Docker Compose on it.
