@@ -8,7 +8,10 @@ No wonder your favourite threat actor loves DNS tunneling more than having a lon
 To quickly get control over DNS traffic you can use AdGuard to 
 
 a) Whitelist traffic to prevent DNS Tunneling
+
 b) Monitor the DNS traffic
+
+**This is intended for quick deployment in Incidents and not a recommendation for general integration in your production network!**
 
 # Quick Setup
 I suggest taking a Ubuntu. Install Docker and Docker Compose on it.
