@@ -10,6 +10,7 @@ To quickly get control over DNS traffic you can use AdGuard to
 a) Whitelist traffic to prevent DNS Tunneling
 
 b) Monitor the DNS traffic
+-- while you will be able to see what URLS have been requested, you should activate DNS Autiting on your Domaincontrollers and other DNS Servers too. Otherwise you will not be able to identify the origin host of the request. And you likely want to know that bad boy ;)
 
 **This is intended for quick deployment in incidents and not a recommendation for general integration in your production network!**
 
