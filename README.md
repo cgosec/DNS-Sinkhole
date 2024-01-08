@@ -17,6 +17,7 @@ b) Monitor the DNS traffic
 
 # Where to place the Sinkhole?
 The sinkhole should be placed as close to the internet as possible. This will allow you to resolve internal services as usual while having control over internet communication.
+
 ![image](https://github.com/cgosec/DNS-Sinkhole/assets/147876916/39251fe2-3b33-4a06-b11a-28ce82a2886d)
 
 # Quick Setup
