@@ -16,6 +16,7 @@ b) Monitor the DNS traffic
 # Where to place the Sinkhole?
 The sinkhole should be placed as close to the internet as possible. This will allow you to resolve internal services as usual while having control over internet communication.
 
+![[Pasted image 20240108143610.png]]
 # Quick Setup
 I suggest taking a Ubuntu. Install Docker and Docker Compose on it.
 
